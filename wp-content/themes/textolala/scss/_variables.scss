@@ -1,14 +1,9 @@
 /* ==========================================================================
 	Variables
 /* ========================================================================== */
-/* Directories */
-$theme_dir: '/wp-content/themes/textolala/';
-$images_dir: '/wp-content/themes/textolala/images/';
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,900,700italic,400italic,900italic);
 
-/* Colors */
-$color_body_copy: #444;
-$color_link: #26527c;
-$color_opposite: #fff;
+$merri: 'Merriweather';
 
 /* Font Sizes */
-$size_base: 1em;
+$size_base: 10px;

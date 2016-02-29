@@ -5,14 +5,34 @@ function theme_enqueue_scripts(){
 	wp_register_script('modernizr', get_bloginfo('template_url') . '/js/modernizr.js');
 	wp_enqueue_script('modernizr');
 
-	wp_register_script('require', get_bloginfo('template_url') . '/js/vendor/requirejs/require.js', array(), false, true);
-	wp_enqueue_script('require');
+	wp_register_script('jquery', get_bloginfo('template_url') . '/js/vendor/jquery/jquery.js');
+	wp_enqueue_script('jquery');
 
-	wp_register_script('global', get_bloginfo('template_url') . '/js/global.js', array('require'), false, true);
+	wp_register_script('mmenu', get_bloginfo('template_url') . '/js/jquery.mmenu.min.all.js');
+	wp_enqueue_script('mmenu');
+
+	wp_register_script('slick', get_bloginfo('template_url') . '/js/slick.js');
+	wp_enqueue_script('slick');
+
+	wp_register_script('slimscroll', get_bloginfo('template_url') . '/node_modules/jquery-slimscroll/jquery.slimscroll.min.js');
+	wp_enqueue_script('slimscroll');
+
+	wp_register_script('global', get_bloginfo('template_url') . '/js/global.js');
+
 	wp_enqueue_script('global');
 
-	wp_register_script('livereload', 'http://www.local.texto.com:35729/livereload.js?snipver=1', null, false, true);
-	wp_enqueue_script('livereload');
+	// Localize the script with new data
+	$translation_array = array(
+		'templateDirectory' => get_template_directory_uri()
+	);
+	wp_localize_script( 'global', 'path', $translation_array );
+
+	// Enqueued script with localized data.
+	wp_enqueue_script( 'global' );
+
+	wp_enqueue_style('mmenu', get_bloginfo('template_url') . '/css/jquery.mmenu.all.css');
+
+	wp_enqueue_style('devices', get_bloginfo('template_url') . '/css/devices.min.css');
 
 	wp_enqueue_style('global', get_bloginfo('template_url') . '/css/global.css');
 }
@@ -52,3 +72,16 @@ function register_widgets(){
 
 }//end register_widgets()
 add_action( 'widgets_init', 'register_widgets' );
+
+//ADD CLASS ACTIVE ON MENU-ITEM
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+
+function special_nav_class($classes, $item){
+     if( in_array('current-menu-item', $classes) ){
+             $classes[] = 'active ';
+     }
+     return $classes;
+}
+
+
+

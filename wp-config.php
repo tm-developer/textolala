@@ -52,6 +52,8 @@ if (!defined('DB_COLLATE')) {
  *
  * @since 2.6.0
  */
+//define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'C:\wamp\www\texto\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('AUTH_KEY',         'A^!AH[vyJdfa2-w&;+D__}x=.sm} wm9hD_#>899?>|}S+AAMWL_:}d(q;%~Q#ko');
 define('SECURE_AUTH_KEY',  '+xGK5y,L_:&J{3C:U#tD,VX6-MA]+%n63?m5WhJ8U$M[1um3r||m#cSMiOHJ)Wyl');
 define('LOGGED_IN_KEY',    'F/;enl^i80zh 6yV~EkG[YGV8hPQ0]#!;Ji]Ko+{qrCZ^i%t>x+a;GPGjsly_NEJ');
