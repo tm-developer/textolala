@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div id="page-content">
+	<div class="fenetre">
 	<div class="marvel-device iphone4s silver">
 	    <div class="speaker">
 	    	<h1 id="logo">
@@ -119,6 +120,6 @@
 	    </div>
     
 	</div>
-	
+	</div>
 </div>
 <?php get_footer(); ?>
