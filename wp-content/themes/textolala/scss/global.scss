@@ -151,7 +151,6 @@ header{
 					span{
 						color: transparent;
 						display: block;
-						text-transform: uppercase;
 						font-weight: 900;
 						line-height: 6rem;
 						transition: color ease 0.5s,margin ease 0.8s;
@@ -187,7 +186,7 @@ header{
 						}
 
 						&:after{
-							border: 2px white solid;
+							/* border: 2px white solid; */
 						}
 					}
 					
@@ -258,7 +257,6 @@ header{
 
 	&:before{
 		content: "soumettez un texto";
-	    text-transform: uppercase;
 	    color: transparent;
 	    display: block;
 	    width: 300%;

@@ -536,7 +536,6 @@ header nav ul li a {
 header nav ul li a span {
   color: transparent;
   display: block;
-  text-transform: uppercase;
   font-weight: 900;
   line-height: 6rem;
   transition: color ease 0.5s,margin ease 0.8s;
@@ -565,7 +564,7 @@ header nav ul li a:hover span, header nav ul li a.active span {
   margin-right: 7rem;
 }
 header nav ul li a:hover:after, header nav ul li a.active:after {
-  border: 2px white solid;
+  /* border: 2px white solid; */
 }
 header nav ul li a.punchlines:after {
   background: url(../images/punchlines.svg) center center no-repeat;
@@ -607,7 +606,6 @@ header nav ul li a.adultes:after {
 }
 .open-pop-up:before {
   content: "soumettez un texto";
-  text-transform: uppercase;
   color: transparent;
   display: block;
   width: 300%;
