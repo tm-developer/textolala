@@ -2039,32 +2039,31 @@ header nav ul li a.adultes:after {
   margin: 0 auto;
 }
 .pop-up form p {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   text-align: center;
-  text-transform: uppercase;
   color: white;
-  font-weight: 900;
+  font-weight: 40;
 }
 .pop-up form span {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .pop-up form span.cgu .wpcf7-list-item-label {
   display: none;
 }
 .pop-up form span input, .pop-up form span textarea {
-  font-size: 14px;
+  font-size: 13px;
   border-top-color: white;
   border: transparent;
   padding-left: 1rem;
   background: white;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 5px;
   display: block;
   width: 100%;
 }
 .pop-up form span input {
-  height: 50px;
+  height: 30px;
 }
 .pop-up form span input[type="file"] {
   cursor: pointer;
