@@ -700,7 +700,14 @@ header{
 
 		&.facebook{
 			    height: 5rem;
+			    width:5rem;
 				bottom: -8rem;
+				
+				&.right {
+	bottom: -9rem;
+    width: 6rem;
+    height: 6rem;
+				}
 			.fb-like,.fb-share-button{
 				display: block;
 				position: absolute;
