@@ -698,10 +698,14 @@ header nav ul li a.adultes:after {
   display: block;
   margin-top: 20px;
 }
+.pop-up form span end.cgu .wpcf7-list-item-label {
+  display: none;
+}
 .pop-up form span input, .pop-up form span textarea {
   font-size: 14px;
   border-top-color: white;
   border: transparent;
+  padding-left: 1rem;
   background: white;
   border-radius: 15px;
   padding: 5px;
@@ -1157,15 +1161,13 @@ header nav ul li a.adultes:after {
 }
 #content-wrapper .texto .title {
   display: block;
-  width: 40rem;
+  width: 38rem;
   margin: 0 auto 1rem auto;
   height: 5.4rem;
   line-height: 5.4rem;
   font-size: 1.8rem;
-  text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 400;
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
   position: relative;
 }
 #content-wrapper .texto .title span {
