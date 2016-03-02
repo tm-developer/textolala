@@ -713,11 +713,8 @@ header{
 	Slider + Texto
 ========================================================================== */
 	.slider{
-		width: 73rem;
+		width:40rem;
 		height: 64rem;
-		position: absolute;
-		left: -16.5rem;
-		top: 0;
 
 		.slick-list{
 			overflow: visible;
@@ -732,7 +729,7 @@ header{
 		height: 64rem !important;
 		
 		.texto-wrapper{
-			padding: 1rem 0;
+			padding: 1rem;
 			
 			.comments-wrapper{
 				width: 40rem;
@@ -994,15 +991,16 @@ header{
 			
 			&.gauche{
 				float: right;
-				margin-right: 37.5rem;
+/* 				margin-right: 37.5rem; */
 				text-align: right;
 
 				span{
 					text-align: right;
+					
 				}
 
 				.img,p{
-					right: 0;
+/* 					right: 0; */
 
 					&:before{
 						right: 0.3rem;
@@ -1013,7 +1011,7 @@ header{
 
 			&.droite{
 				float: left;
-				margin-left: 37.5rem;
+/* 				margin-left: 37.5rem; */
 				text-align: left;
 
 				span{
@@ -1021,7 +1019,7 @@ header{
 				}
 
 				.img,p{
-					left: 0;
+/* 					left: 0; */
 
 					&:before{
 						left: 0.3rem;

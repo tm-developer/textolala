@@ -159,7 +159,7 @@ a {
 
 @media only screen and (min-device-width: 736px) {
   html #content-wrapper .texto {
-    width: 73rem !important;
+    /* 				width: 73rem !important; */
   }
   html #content-wrapper .texto .texto-wrapper .comments-wrapper .comments .show-form {
     top: 0.8rem;
@@ -996,11 +996,8 @@ header nav ul li a.adultes:after {
   ========================================================================== */
 }
 #content-wrapper .slider {
-  width: 73rem;
+  width: 40rem;
   height: 64rem;
-  position: absolute;
-  left: -16.5rem;
-  top: 0;
 }
 #content-wrapper .slider .slick-list {
   overflow: visible;
@@ -1021,7 +1018,7 @@ header nav ul li a.adultes:after {
   ========================================================================== */
 }
 #content-wrapper .texto .texto-wrapper {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 #content-wrapper .texto .texto-wrapper .comments-wrapper {
   width: 40rem;
@@ -1240,14 +1237,14 @@ header nav ul li a.adultes:after {
 }
 #content-wrapper .texto .message.gauche {
   float: right;
-  margin-right: 37.5rem;
+  /* 				margin-right: 37.5rem; */
   text-align: right;
 }
 #content-wrapper .texto .message.gauche span {
   text-align: right;
 }
 #content-wrapper .texto .message.gauche .img, #content-wrapper .texto .message.gauche p {
-  right: 0;
+  /* 					right: 0; */
 }
 #content-wrapper .texto .message.gauche .img:before, #content-wrapper .texto .message.gauche p:before {
   right: 0.3rem;
@@ -1255,14 +1252,14 @@ header nav ul li a.adultes:after {
 }
 #content-wrapper .texto .message.droite {
   float: left;
-  margin-left: 37.5rem;
+  /* 				margin-left: 37.5rem; */
   text-align: left;
 }
 #content-wrapper .texto .message.droite span {
   margin-left: -1rem;
 }
 #content-wrapper .texto .message.droite .img, #content-wrapper .texto .message.droite p {
-  left: 0;
+  /* 					left: 0; */
 }
 #content-wrapper .texto .message.droite .img:before, #content-wrapper .texto .message.droite p:before {
   left: 0.3rem;
