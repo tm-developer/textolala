@@ -28,6 +28,12 @@
 
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#device-container {
+	position:absolute;
+	top:0;
+	left:auto;
+	right:auto;
+}
 	html{
 		body{
 			#page-header{
@@ -70,6 +76,12 @@
 	}
 }
 @media only screen and (max-device-width : 736px) {
+	#device-container {
+	position:absolute;
+	top:0;
+	left:auto;
+	right:auto;
+}
 	html{
 		body{
 

@@ -175,6 +175,13 @@ a {
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #device-container {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+  }
+
   html body #page-header {
     bottom: 0;
     left: 0;
@@ -206,6 +213,13 @@ a {
   }
 }
 @media only screen and (max-device-width: 736px) {
+  #device-container {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+  }
+
   html body .mobile {
     display: block !important;
   }
@@ -1004,6 +1018,13 @@ header nav ul li a.adultes:after {
 /* ==========================================================================
 	CONTENT
 ========================================================================== */
+#device-container {
+  position: absolute;
+  top: calc(50% - 42rem);
+  left: 0;
+  right: 0;
+}
+
 #content-wrapper {
   /* ==========================================================================
   	Slider + Texto

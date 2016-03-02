@@ -725,7 +725,10 @@ header{
 	CONTENT
 ========================================================================== */
 #device-container {
-	
+	position:absolute;
+	top: calc(50% - 42rem);
+	left:0;
+	right:0;
 }
 #content-wrapper{
 

@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div id="page-content">
+<div id="device-container">
 	<div class="marvel-device iphone4s silver">
 		
 	    <div class="speaker">
@@ -15,6 +16,6 @@
 	    </div>
     
 	</div>
-	
+</div>
 </div>
 <?php get_footer(); ?>
