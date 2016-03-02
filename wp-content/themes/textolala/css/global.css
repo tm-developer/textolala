@@ -593,16 +593,13 @@ header nav ul li a.adultes:after {
 ========================================================================== */
 .open-pop-up {
   display: block;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   position: fixed;
-  right: 2.15rem;
-  top: 1rem;
+  right: 1.7rem;
+  top: 2rem;
   z-index: 99;
-  background-size: 80% !important;
-  border-radius: 50%;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  background: url(../images/soumission.svg) no-repeat center rgba(0, 0, 0, 0.3);
+  background: url(../images/soumission.svg) no-repeat center;
 }
 .open-pop-up:before {
   content: "soumettez un texto";
@@ -614,9 +611,6 @@ header nav ul li a.adultes:after {
   right: -500%;
   font-weight: 900;
   transition: color 0.5s ease,position 0.7s ease;
-}
-.open-pop-up:hover {
-  border: 2px solid white;
 }
 .open-pop-up:hover:before {
   right: calc(100% + 0.5rem);
@@ -770,13 +764,10 @@ header nav ul li a.adultes:after {
   display: none;
 }
 .marvel-device.iphone4s.silver .camera {
-  top: -5rem;
-  width: 3.5rem;
-  height: auto;
-  border-radius: 0;
-  left: 25%;
+  top: -4.8rem;
+  width: 3.3rem;
+  left: 24%;
   background: none;
-  transform: rotate(180deg);
 }
 .marvel-device.iphone4s.silver .camera img {
   width: 100%;
@@ -961,7 +952,7 @@ header nav ul li a.adultes:after {
   margin-right: -3.6rem;
 }
 .marvel-device.iphone4s.silver .home.commentaire {
-  bottom: -10rem;
+  bottom: -11rem;
   left: 50%;
 }
 .marvel-device.iphone4s.silver .home.partage {
@@ -983,8 +974,8 @@ header nav ul li a.adultes:after {
   height: 4.2rem;
 }
 .marvel-device.iphone4s.silver .home.facebook {
-  height: 4.2rem;
-  bottom: -8.8rem;
+  height: 5.2rem;
+  bottom: -9.8rem;
 }
 .marvel-device.iphone4s.silver .home.facebook .fb-like, .marvel-device.iphone4s.silver .home.facebook .fb-share-button {
   display: block;

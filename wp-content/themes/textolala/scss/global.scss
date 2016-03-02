@@ -244,16 +244,13 @@ header{
 ========================================================================== */
 .open-pop-up{
 	display: block;
-	width: 4rem;
-	height: 4rem;
-	position: fixed;
-	right: 2.15rem;
-	top: 1rem;
-	z-index: 99;
-	background-size: 80% !important;
-	border-radius: 50%;
-	border: 2px solid rgba(0,0,0,0.1);
-	background: url(../images/soumission.svg) no-repeat center rgba(0,0,0,0.3);
+    width: 3.5rem;
+    height: 3.5rem;
+    position: fixed;
+    right: 1.7rem;
+    top: 2rem;
+    z-index: 99;
+    background: url(../images/soumission.svg) no-repeat center;
 
 	&:before{
 		content: "soumettez un texto";
@@ -268,7 +265,6 @@ header{
 	}
 
 	&:hover{
-		border: 2px solid white;
 		&:before{
 			right: calc(100% + 0.5rem);
 			color: white;
@@ -410,7 +406,6 @@ header{
 	}
 }
 
-
 /* ==========================================================================
 	iPhone Css
 ========================================================================== */
@@ -437,13 +432,10 @@ header{
 	}
 	
 	.camera{
-		top: -5rem;
-		width: 3.5rem;
-		height: auto;
-		border-radius: 0;
-		left: 25%;
-		background: none;
-		transform: rotate(180deg);
+		top: -4.8rem;
+	    width: 3.3rem;
+	    left: 24%;
+	    background: none;
 
 		img{
 			width: 100%;
@@ -669,7 +661,7 @@ header{
 		}
 
 		&.commentaire{
-			bottom: -10rem;
+			bottom: -11rem;
 			left: 50%;
 		}
 
@@ -695,8 +687,8 @@ header{
 		}
 
 		&.facebook{
-			height: 4.2rem;
-			bottom: -8.8rem;
+			    height: 5.2rem;
+				bottom: -9.8rem;
 			.fb-like,.fb-share-button{
 				display: block;
 				position: absolute;
