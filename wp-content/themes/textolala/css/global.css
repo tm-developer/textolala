@@ -218,6 +218,7 @@ body.home .loader, body.home .pop-up {
     top: 0;
     left: 0;
     right: 0;
+    height: 100%;
   }
   html body .mobile {
     display: block !important;
