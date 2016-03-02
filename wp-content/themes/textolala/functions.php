@@ -74,7 +74,7 @@ function register_widgets(){
 add_action( 'widgets_init', 'register_widgets' );
 
 //ADD CLASS ACTIVE ON MENU-ITEM
-add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 );
 
 function special_nav_class($classes, $item){
      if( in_array('current-menu-item', $classes) ){
