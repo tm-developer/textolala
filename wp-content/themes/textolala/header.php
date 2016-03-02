@@ -12,8 +12,8 @@
 		<link rel="author" href="">
 		<?php wp_head() ?>
     </head>
-    <body <?php body_class() ?> id="<?php $category = get_the_category(); echo $category[0]->slug; if (is_page('top')) { echo "top"; }elseif (is_page('hasard')) { echo "hasard"; }?>">
-    	<div class="loader <?php $category = get_the_category(); echo $category[0]->slug; if (is_page('top')) { echo "top"; }elseif (is_page('hasard')) { echo "hasard"; }?>">
+    <body <?php body_class() ?> id="<?php if (is_page('home')) { echo "home"; }elseif( is_category()){$category = get_the_category(); echo $category[0]->slug;}elseif (is_page('top')) { echo "top"; }elseif (is_page('hasard')) { echo "hasard"; }?>">
+    	<div class="loader <?php if (is_page('home')) { echo "home"; }elseif( is_category()){$category = get_the_category(); echo $category[0]->slug;}elseif (is_page('top')) { echo "top"; }elseif (is_page('hasard')) { echo "hasard"; }?>">
     		
     	</div>
     	
