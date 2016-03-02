@@ -84,7 +84,7 @@ body.home .marvel-device.iphone4s.silver .screen .comments {
 body.home .marvel-device.iphone4s.silver .screen:before {
   background: #06deec;
 }
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) {
   body.home header {
     right: calc(50% - 21rem);
     z-index: 100;
