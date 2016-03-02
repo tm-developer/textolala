@@ -75,6 +75,46 @@ body.home {
 body.home .loader, body.home .pop-up {
   background-color: purple;
 }
+body.home .marvel-device.iphone4s.silver .screen {
+  background: #06deec;
+}
+body.home .marvel-device.iphone4s.silver .screen .comments {
+  background: #06deec;
+}
+body.home .marvel-device.iphone4s.silver .screen:before {
+  background: #06deec;
+}
+@media only screen and (min-device-width: 1024px) {
+  body.home header {
+    right: calc(50% - 21rem);
+    z-index: 100;
+  }
+  body.home header nav ul {
+    height: 64rem;
+    width: 40rem;
+    top: calc(50% - 32rem);
+    padding: 1rem 0;
+  }
+  body.home header nav ul li {
+    width: calc(50% - 5px);
+    height: calc(100%/4 - 20px);
+    display: inline-block;
+    text-align: center;
+  }
+  body.home header nav ul li a {
+    display: inline-block;
+    width: 6rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body.home header nav ul li a span {
+    color: white;
+    left: -100%;
+    width: 300%;
+    position: absolute;
+    bottom: -4.2rem;
+  }
+}
 
 /* Slider */
 .slick-slider {

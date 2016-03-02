@@ -6,9 +6,58 @@ body.home{
 		background-color: purple;
 	}
 
+	.marvel-device.iphone4s.silver{
+		.screen{
+			background: #06deec;
+			
+			.comments{
+				background: #06deec;
+			}
+
+			&:before{
+				background: #06deec;
+			}
+		}
+	}
+
+@media only screen and (min-device-width : 1024px){
 
 	header{
-		
+		right: calc(50% - 21rem);
+		z-index: 100;
+		nav{
+			ul{
+			    height: 64rem;
+    			width: 40rem;
+    			top: calc(50% - 32rem);
+    			padding: 1rem 0;
+
+    			li{
+    				width: calc(50% - 5px);
+    				height: calc(100%/4 - 20px);
+    				display: inline-block;
+    				text-align: center;
+
+    				a{
+    					display: inline-block;
+    					width: 6rem;
+    					text-align: center;
+    					margin: 0 auto;
+
+    					span{
+    						color: white;
+    						left: -100%;
+    						width: 300%;
+    						position: absolute;
+    						bottom: -4.2rem;
+    					}
+    				}
+    			}
+			}
+		}
 	}
+
+}
+	
 
 }

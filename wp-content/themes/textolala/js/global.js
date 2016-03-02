@@ -86,6 +86,8 @@ jQuery( document ).ready(function() {
 
     
 
+    
+
     //SHOW/HIDE COMMENTS SECTION
     jQuery('.show-comments').click(function() {
         var action = jQuery('.screen').addClass('other').delay(400);
@@ -115,6 +117,17 @@ jQuery( document ).ready(function() {
             jQuery('#page-header nav ul,.menu-button,#page-header').toggleClass('clicked');
       	});
 	}
+
+    if (window.matchMedia("(min-width: 1024px)").matches) {
+      
+        jQuery('.pop-up').slimScroll({
+            width: '100%',
+            height: 'auto',
+            railOpacity : 0.01,
+            color : '#ffffff'
+        });
+        
+    }
 	
 
 });
