@@ -984,7 +984,13 @@ header nav ul li a.adultes:after {
 }
 .marvel-device.iphone4s.silver .home.facebook {
   height: 5rem;
+  width: 5rem;
   bottom: -8rem;
+}
+.marvel-device.iphone4s.silver .home.facebook.right {
+  bottom: -9rem;
+  width: 6rem;
+  height: 6rem;
 }
 .marvel-device.iphone4s.silver .home.facebook .fb-like, .marvel-device.iphone4s.silver .home.facebook .fb-share-button {
   display: block;
