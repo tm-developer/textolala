@@ -173,15 +173,14 @@ a {
   html {
     font-size: 8px !important;
   }
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #device-container {
+  html #content-wrapper #page-content #device-container {
     position: absolute;
     top: 0;
-    left: auto;
-    right: auto;
+    left: 0;
+    right: 0;
   }
-
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   html body #page-header {
     bottom: 0;
     left: 0;
@@ -712,7 +711,7 @@ header nav ul li a.adultes:after {
   display: block;
   margin-top: 20px;
 }
-.pop-up form span end.cgu .wpcf7-list-item-label {
+.pop-up form span.cgu .wpcf7-list-item-label {
   display: none;
 }
 .pop-up form span input, .pop-up form span textarea {

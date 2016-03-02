@@ -24,16 +24,21 @@
 
 	html{
 		font-size: 8px !important;
+		#content-wrapper{
+			#page-content {
+				#device-container {
+				position:absolute;
+				top:0;
+				left:0;
+				right:0;
+				}
+			}
+		}
 	}
 
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-	#device-container {
-	position:absolute;
-	top:0;
-	left:auto;
-	right:auto;
-}
+
 	html{
 		body{
 			#page-header{
