@@ -69,6 +69,13 @@ a {
 	Variables
 /* ========================================================================== */
 /* Font Sizes */
+body.home {
+  background-color: purple;
+}
+body.home .loader, body.home .pop-up {
+  background-color: purple;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
