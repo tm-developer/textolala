@@ -173,12 +173,6 @@ a {
   html {
     font-size: 8px !important;
   }
-  html #content-wrapper #page-content #device-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   html body #page-header {
@@ -191,9 +185,9 @@ a {
   }
   html body #page-header nav ul {
     height: 6rem;
-    width: 65rem;
+    width: 70rem;
     top: calc(100% - 8rem);
-    left: calc(50% - 32.5rem);
+    left: calc(50% - 35rem);
   }
   html body #page-header nav ul li {
     width: 6rem;
@@ -212,13 +206,12 @@ a {
   }
 }
 @media only screen and (max-device-width: 736px) {
-  #device-container {
-    position: absolute;
+  html #content-wrapper #page-content #device-container {
+    position: static;
     top: 0;
-    left: auto;
-    right: auto;
+    left: 0;
+    right: 0;
   }
-
   html body .mobile {
     display: block !important;
   }
