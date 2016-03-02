@@ -1,7 +1,7 @@
 /* ==========================================================================
 	IMPORTS
 ========================================================================== */
-@import 'reset', 'variables','slick','responsive';
+@import 'reset', 'variables', 'home', 'slick','responsive';
 
 /* ==========================================================================
 	Base
@@ -724,8 +724,10 @@ header{
 /* ==========================================================================
 	CONTENT
 ========================================================================== */
+#device-container {
+	
+}
 #content-wrapper{
-	padding-top: 5rem;
 
 
 /* ==========================================================================
@@ -906,9 +908,9 @@ header{
 		.title{
 			display: block;
 			width: 38rem;
-			margin: 0 auto 1rem auto;
+			margin: 0 auto;
 		    height: 5.4rem;
-		    line-height: 5.4rem;
+		    line-height: 5rem;
 		    font-size: 1.8rem;
 		    font-weight: 400;
 		    border-bottom: 1px solid rgba(255, 255, 255, 0.4);

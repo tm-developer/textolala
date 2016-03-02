@@ -1005,7 +1005,6 @@ header nav ul li a.adultes:after {
 	CONTENT
 ========================================================================== */
 #content-wrapper {
-  padding-top: 5rem;
   /* ==========================================================================
   	Slider + Texto
   ========================================================================== */
@@ -1168,9 +1167,9 @@ header nav ul li a.adultes:after {
 #content-wrapper .texto .title {
   display: block;
   width: 38rem;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto;
   height: 5.4rem;
-  line-height: 5.4rem;
+  line-height: 5rem;
   font-size: 1.8rem;
   font-weight: 400;
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
