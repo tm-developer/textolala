@@ -360,10 +360,18 @@ header{
 		span{
 			display: block;
 			margin-top: 20px;
-
+			
+			end.cgu {
+					.wpcf7-list-item-label {
+						display:none;
+					}
+			}
+			
 			input,textarea{
 				font-size: 14px;
 				border-top-color: white;
+				border:transparent;
+				padding-left:1rem;
 				background: white;
 				border-radius: 15px;
 				padding: 5px;
@@ -415,7 +423,7 @@ header{
 	width: 40rem;
 	height: 64rem;
 	padding-top: 7.5rem;
-	padding-bottom: 12.9rem;
+	padding-bottom: 10.9rem;
 
 	&:before{
 		background-color: #DCDFDF;
@@ -652,43 +660,47 @@ header{
 		}
 
 		&.left{
-			left: 32%;
+			left: 25%;
 		}
 		&.right{
-			right: 32%;
+			right: 25%;
 			margin-left: 0;
 			margin-right: -3.6rem;
 		}
 
 		&.commentaire{
-			bottom: -11rem;
+			bottom: -9.3rem;
 			left: 50%;
+		width: 6.2rem;
+		height: 6.2rem;
+		margin-left: -3.1rem;
 		}
 
 		&.partage{
-			bottom: -9.2rem;
-			left: 51%;
-			width: 5.2rem;
-			height: 5.2rem;
+			left: 50%;
+    width: 6.2rem;
+    height: 6.2rem;
+    margin-left: -3.1rem;
+    bottom: -9rem
 		}
 		
 		&.like{
-			bottom: -9rem;
-			border-radius: 0;
-			width: 4.2rem;
-			height: 4.2rem;
+    bottom: -8rem;
+    border-radius: 0;
+    width: 5rem;
+    height: 5rem;
 		}
 
 		&.unlike{
-			bottom: -9rem;
-			border-radius: 0;
-			width: 4.2rem;
-			height: 4.2rem;
+    bottom: -9rem;
+    border-radius: 0;
+    width: 5rem;
+    height: 5rem;
 		}
 
 		&.facebook{
-			    height: 5.2rem;
-				bottom: -9.8rem;
+			    height: 5rem;
+				bottom: -8rem;
 			.fb-like,.fb-share-button{
 				display: block;
 				position: absolute;
@@ -886,15 +898,13 @@ header{
 
 		.title{
 			display: block;
-			width: 40rem;
+			width: 38rem;
 			margin: 0 auto 1rem auto;
 		    height: 5.4rem;
 		    line-height: 5.4rem;
 		    font-size: 1.8rem;
-		    text-transform: uppercase;
-		    font-weight: 900;
+		    font-weight: 400;
 		    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-		    border-top: 1px solid rgba(255, 255, 255, 0.4);
 		    position: relative;
 
 		    span{
