@@ -380,8 +380,14 @@ header{
 
 			input[type="file"]{
 				cursor: pointer;
+				color : black;
 			}
-			
+			input[type="checkbox"] {
+			    width: 30px;
+			    position: absolute;
+			    top: -37px;
+			}
+
 			span.wpcf7-not-valid-tip{
 				position: absolute;
 			    top: 35px;

@@ -764,6 +764,12 @@ header nav ul li a.adultes:after {
 }
 .pop-up form span input[type="file"] {
   cursor: pointer;
+  color: black;
+}
+.pop-up form span input[type="checkbox"] {
+  width: 30px;
+  position: absolute;
+  top: -37px;
 }
 .pop-up form span span.wpcf7-not-valid-tip {
   position: absolute;
